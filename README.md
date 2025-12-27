@@ -232,9 +232,16 @@ AI Engineer | Middleware Architect | Voice AI Systems
 
 ## 📜 License
 
-This project is released under the **MIT License** (for the sanitized/demo code only).
+This project is licensed under the Apache License, Version 2.0.
 
-Private extensions, datasets, and personal configurations are **not included**.
+You may use, modify, and distribute this code in compliance with the Apache-2.0 license.
+Attribution and inclusion of the license notice are required.
+
+This repository contains a sanitized, demo-friendly version of the Scarlet project intended for learning, architectural review, and portfolio purposes.
+
+Private extensions, internal assets, datasets, credentials, and personal configurations are not included in this repository and are not covered by this license.
+
+See the LICENSE file for the full license text.
 
 ---
 
