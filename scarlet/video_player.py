@@ -3,7 +3,7 @@ import subprocess
 import threading
 import time
 from pathlib import Path
-from scarlet.config import VIDEO_DIR, INTIMACY_VIDEO_FOLDER, VIDEO_MAP
+from scarlet.config import VIDEO_DIR, VIDEO_MAP
 
 _video_process = None
 _loop_thread = None
@@ -67,10 +67,10 @@ def stop_loop():
 
 def start_intimacy_loop():
     # Loop all mp4s in intimacy folder
-    if not os.path.exists(INTIMACY_VIDEO_FOLDER):
-        print(f"[video_player] Intimacy folder not found: {INTIMACY_VIDEO_FOLDER}")
+    if not os.path.exists():
+        print(f"[video_player] Intimacy folder not found: {vide0_folder}")
         return
-    start_loop(INTIMACY_VIDEO_FOLDER)
+    start_loop(vide0_folder)
 
 def start_idle_loop():
     # Loop single idle.mp4 repeatedly
