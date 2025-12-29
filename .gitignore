@@ -1,13 +1,25 @@
+# Python
 __pycache__/
 *.pyc
+
+# Backups
+bkp*
+*_bkp*
+*backup*
+
+# Logs / runtime data
+*.log
+conversation_log.json
+scarlet_memory.json
+memory_history.json
+
+# Media / data
+videos/
+known_faces/
+
+# Environment
 .env
 .env.*
-*.log
-*.wav
-*.mp3
-*.mp4
-*.model
-models/
 venv/
 .venv/
 
