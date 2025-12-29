@@ -12,9 +12,6 @@ from scarlet.config import (
     CONVERSATION_LOG_PATH
 )
 
-AKKA_EMO_LOG_PATH = os.path.expanduser("~/scarlet/akka_emotions.json")
-MOOD_STATE_PATH = os.path.expanduser("~/scarlet/memory_mood_state.json")
-
 # 📁 General utilities
 def load_json(path, default={}):
     if os.path.exists(path):
