@@ -60,8 +60,6 @@ BEHAVIOR_PATH      = os.path.join(DATA_DIR, "behavior_rules.json")
 MEMORY_PATH        = os.path.join(DATA_DIR, "scarlet_memory.json")
 CONV_LOG_PATH      = os.path.join(DATA_DIR, "conversation_log.json")
 ALARM_STORE_PATH  = os.path.join(DATA_DIR, "alarms_reminders.json")
-INTIMACY_LOG_PATH = os.path.expanduser("~/scarlet/intimacy_log.json")
-INTIMACY_VIDEO_FOLDER = os.path.expanduser("~/scarlet/videos/intimacy_loop/")
 CONVERSATION_LOG_PATH = os.path.join(DATA_DIR, "conversation_log.json")
 
 # === JSON loader helper & initial loads ===
